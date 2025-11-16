@@ -1,12 +1,13 @@
 
 #include <stdio.h>
-
-struct Book {
+struct Book 
+{
     int book_id;
     char title[100];
     char author[100];
     float price;
 };
+
 void printBook(struct Book b) {
     printf("\n--- Book Details ---\n");
     printf("Book ID: %d\n", b.book_id);
@@ -30,7 +31,7 @@ int main() {
 
     printf("Enter Price: ");
     scanf("%f", &b.price);
-    
+
     printBook(b);
 
     return 0;
