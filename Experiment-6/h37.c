@@ -21,23 +21,23 @@ int main() {
     
     printf("Enter Name: ");
     
-    scanf(" %99[^\n]", employee.name); 
+    scanf(" %s", employee.name); 
 
     printf("Enter Home Address Line: ");
-    scanf(" %99[^\n]", employee.home_address);
+    scanf(" %s", employee.home_address);
 
     printf("Enter Hostel Address Line: ");
-    scanf(" %99[^\n]", employee.hostel_address);
+    scanf(" %s", employee.hostel_address);
 
     printf("Enter City: ");
-    scanf(" %99[^\n]", employee.city);
+    scanf(" %s", employee.city);
 
     printf("Enter State: ");
-    scanf(" %99[^\n]", employee.state);
+    scanf(" %s", employee.state);
     
     printf("Enter Zip Code: ");
     
-    scanf(" %99s", employee.zip); 
+    scanf(" %s", employee.zip); 
 
     printf("\nWhere are you currently staying?\n");
     printf("1. Home Address\n");
