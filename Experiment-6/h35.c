@@ -14,10 +14,10 @@ void readEmployeeData(struct Employee emp[], int size) {
         
         printf("Enter Name: ");
         
-        scanf(" %s[^\n]", emp[i].name); 
+        scanf(" %s", emp[i].name); 
         
         printf("Enter Address: ");
-        scanf(" %s[^\n]", emp[i].address);
+        scanf(" %s", emp[i].address);
        
         printf("Enter Salary: ");
         scanf("%f", &emp[i].salary);
