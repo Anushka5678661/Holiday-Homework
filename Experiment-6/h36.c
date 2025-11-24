@@ -20,7 +20,7 @@ void readEmployeeData(struct employee *emp) {
     
     printf("Enter Name: ");
     
-    scanf(" %s[^\n]", emp->name); 
+    scanf(" %s", emp->name); 
     
     printf("Enter ID: ");
     scanf("%d", &emp->id);
