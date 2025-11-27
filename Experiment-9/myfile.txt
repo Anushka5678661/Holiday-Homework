@@ -1,2 +1,1 @@
-I Love Programming
-my name is Anushka Negi
+I Love Programming \n my name is Anushka Negi
